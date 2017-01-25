@@ -13,75 +13,108 @@ body	{margin: 0;
 	height: auto;
 	overflow: auto;
 }
-.box7{
+.box6{
 	margin: 10px;
 }
-.box7-articre{
+.box6-articre{
 	display: block;
 	content: "";
 }
-.box7-articre ul{
+.box6-articre ul{
 	list-style: :none;
 }
-..box7-articre li{
+..box6-articre li{
 	float: left;
 }
-.box7-articre li a{
+.box6-articre li a{
 	display: block;
 	padding: 10px 10px;
 	color:#000000;
 	font-size: 14px;
 	text-decoration: none;
 }
-.site h1 a	{color: #ffffff;
-	text-decoration: none}
+.box6-articre li a:hover{
+	background-color: #c2c2c2;
+}
+.box6-articre i {
+	margin-left: 10px;
+}
+.menu {
 
-.site h1	{margin: 0;
-	font-size: 30px}
-
-.site img	{border: none}
-
-.topimg	{max-width: 100%;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #ffffff;
+}
+.box7 {
 	height: auto;
-	vertical-align: bottom}
+	width: 100%;
+	margin: 0 auto;
+}
+.box7 img {
+	width: 100%;
+}
 
-.gaiyou i {
+.top {
+	position: relative;
+}
+.top h1 {
 	display: block;
+	font-weight: normal;
+	font-size: 30px;
+}
+.top img {
+	padding: 20px 20px 20px 0px;
+}
+
+.y {
+	width: 20px;
+	height: 50px;
+	background-color: #;
+	float: left;
+	overflow: auto;
+}
+.y :after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.box7 {
+	margin-top: 20px;
+}
+.box7-1.box7-2.box7-3{
+	padding-bottom: 10px;
+}
+
+.gaiyou a {
+	display: block;
+	text-decoration: none;
 	font-size:38px;
 	float: left;
 	color: #c2c2c2;
-}
-.gaiyou .fa-hand-o-down {
-	background-color: #bfbd13;
-}
-.gaiyou .fa-sitemap {
-	background-color: #c58839;
-}
-.gaiyou .fa-smile-o {
-	background-color: #859f46;
 }
 
 .gaiyou h1 {
 	margin-top: 0;
 	margin-bottom: 0;
-	padding: 20px 0px 10px 0px;
+	padding: 5px 0px 5px 0px;
 	font-size:30px;
 	font-weight: normal;
 	border-bottom: solid 1px #c2c2c2;
 	}
 .gaiyou p {
+	display: block;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top:15px;
 	padding-bottom:15px;
-	font-size: 12px;
+	font-size: 15px;
 	}
 
-.gaiyou a {
-	display:block;
-	color:#ffffff;
-	text-align: center;
-	text-decoration: none;
+.gaiyou i {
+	color: #c1c1c1;
 }
 .gaiyou a:hover {
 	opacity:0.8+;
@@ -91,12 +124,7 @@ body	{margin: 0;
 	clear: both;
 	content: "";
 }
-/*事業紹介*/
 
-.
-
-
-/*幅*/
 .boxA	{padding-top: 20px;
 	padding-bottom: 10px}
 
@@ -106,6 +134,39 @@ body	{margin: 0;
 
 .box7-1, .box7-2, {
 	padding-bottom: 10px
+}
+.box4 {
+	margin-left: 5px;
+	border: solid 5px #eeeeee;
+}
+.box4 ul {
+	margin: 0;
+	padding: 0;
+}
+.box4 li {
+	border-bottom: solid:1px #eeeeee;
+}
+.box4 li a {
+	display: block;
+	padding: 7px 15px;
+	color: #000000;
+	font-size: 14px;
+}
+.box4 i {
+	clear: #000000;
+	padding-right: 1px;
+	padding-top: 3px;
+}
+.box4 li a:hover {
+	background-color: #000000;
+}
+.box4 ul :after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+@media (max-width: 767px){
 
 
-
+}
